@@ -10,8 +10,9 @@
 #     txt_file.write("Hello World")
 import csv
 import os
-
+# Assign variable to load a file from a path
 file_to_load = os.path.join("Resources", "election_results.csv")
+# Assign a variable to save the file to a path
 file_to_save = os.path.join("Analysis", "Election_analysis.txt")
 
 # initialize total vote counter
@@ -59,6 +60,31 @@ with open(file_to_load) as election_data:
             county_names.append(county_name)
             county_votes[county_name] = 0
         county_votes[county_name] += 1
+
+    print(candidate_options)
+    print(candidate_votes) 
+    
+for candidate_name in candidate_votes:
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+        print(f"{candidate_name}: received {vote_percentage:.1f}% of the vote.")
+        
+# Determine winning vote count and candidate
+
+if (votes > winning_count) and (vote_percentage > winning_percentage):
+        winning_count = votes
+        winning_percentage = vote_percentage
+        winning_candidate = candidate_name
+        print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+
+winning_candidate_summary = (
+    f"----------------------------\n"
+    f"Winner: {winning_candidate}\n"
+    f"Winning Vote Count: {winning_count:,}\n"
+    f"Winning Percentage: {winning_percentage:.1f}%\n"
+    f"----------------------------\n")
+print(winning_candidate_summary)
 
 with open(file_to_save, 'w') as txt_file:
     election_results = f"""
