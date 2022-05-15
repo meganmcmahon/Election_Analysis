@@ -1,9 +1,11 @@
 # Election_Analysis
 Election Analysis with Python
-## Overview of Election Audit: Explain the purpose of this election audit analysis.
+## Overview of Election Audit: 
+The purpose of this election audit analysis was to analyze the voting data and identify the winning candidate.
 
-## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+## Election-Audit Results: 
 
+---Add in screenshots of code----
 - 369,711 votes were cast in this congressional election.
 - The breakdown of county votes is:
     - Jefferson: 38,855 votes (10.5%)
