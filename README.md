@@ -1,6 +1,9 @@
 # Election_Analysis
+
 Election Analysis with Python
+
 ## Overview of Election Audit: 
+
 The purpose of this election audit analysis was to analyze the voting data and identify the winning candidate.
 
 ## Election-Audit Results: 
@@ -19,15 +22,6 @@ The purpose of this election audit analysis was to analyze the voting data and i
     - Raymon Anthony Doane: 11,606 votes (3.1%)
 - Diana DeGette won the election with 272,892 votes which was 73.8% of the total vote count.
 
-The written analysis has the following:
+## Election-Audit Summary: 
 
-Overview of Election Audit
-
-The purpose of this election analysis audit is well defined. (3 pt)
-Election Audit Results
-
-There is a bulleted list where each election outcome is addressed. (7 pt)
-Election Audit Summary
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
-## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
