@@ -15,6 +15,7 @@ The purpose of this election audit analysis was to use Python to analyze the vot
     - Arapahoe: 24,801 votes ( 6.7%)
 
 Sample code to determine county vote count:
+
 <img width="460" alt="Screen Shot 2022-05-15 at 7 29 53 PM" src="https://user-images.githubusercontent.com/103215686/168505164-17a87a65-bdea-4a3a-bd71-3b5ae74a4729.png">
 
 Sample code to determine the county that had the most votes:
