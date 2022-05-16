@@ -8,7 +8,6 @@ The purpose of this election audit analysis was to use Python to analyze the vot
 
 ## Election-Audit Results: 
 
----Add in screenshots of code----
 - 369,711 votes were cast in this congressional election.
 - The breakdown of county votes is:
     - Jefferson: 38,855 votes (10.5%)
